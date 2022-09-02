@@ -2,7 +2,13 @@
   "name": "big-font-mode",
   "displayName": "Big Font Mode",
   "description": "Temporarily enlarge your font",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "license": "MIT",
+  "publisher": "rburmorrison",
+  "icon": "assets/icon.png",
+  "repository": {
+    "url": "https://github.com/rburmorrison/vscode-big-font-mode"
+  },
   "engines": {
     "vscode": "^1.71.0"
   },
