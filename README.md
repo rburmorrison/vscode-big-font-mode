@@ -1,6 +1,6 @@
-# big-font-mode README
+# Big Font Mode
 
- Temporarily enlarge your font.
+Temporarily enlarge your font.
 
 ## Features
 
