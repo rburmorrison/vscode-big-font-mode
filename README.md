@@ -2,6 +2,8 @@
 
 Temporarily enlarge your font.
 
+![](assets/screencast.gif)
+
 ## Features
 
 Adds two new commands: "Big Font Mode" and "XL Font Mode".
