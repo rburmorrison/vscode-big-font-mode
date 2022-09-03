@@ -2,7 +2,7 @@
   "name": "big-font-mode",
   "displayName": "Big Font Mode",
   "description": "Temporarily enlarge your font!",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "publisher": "rburmorrison",
   "icon": "assets/icon.png",
