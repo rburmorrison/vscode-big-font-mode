@@ -10,8 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Default key binding "ctrl+shift+4" for Big Font Mode
-- Default key binding "ctrl+shift+8" for XL Font Mode
+- Default key binding `ctrl+shift+4` for Big Font Mode
+- Default key binding `ctrl+shift+8` for XL Font Mode
 
 ## [0.1.0] - 2022-09-02
 
