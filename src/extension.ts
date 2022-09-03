@@ -30,8 +30,8 @@ export function activate(context: vscode.ExtensionContext) {
       } else if (mode === mode_) {
         mode = 'normal';
       } else if (mode !== mode_) {
-		mode = mode_;
-	  }
+        mode = mode_;
+      }
 
       if (mode === mode_) {
         enlargeFont(magnitude);
@@ -44,15 +44,19 @@ export function activate(context: vscode.ExtensionContext) {
   // The command has been defined in the package.json file
   // Now provide the implementation of the command with registerCommand
   // The commandId parameter must match the command field in package.json
-  context.subscriptions.push(vscode.commands.registerCommand(
-    'big-font-mode.bigFontMode',
-    enlargeCallback('big', 4)
-  ));
+  context.subscriptions.push(
+    vscode.commands.registerCommand(
+      'big-font-mode.bigFontMode',
+      enlargeCallback('big', 4)
+    )
+  );
 
-  context.subscriptions.push(vscode.commands.registerCommand(
-    'big-font-mode.xlFontMode',
-    enlargeCallback('xl', 8)
-  ));
+  context.subscriptions.push(
+    vscode.commands.registerCommand(
+      'big-font-mode.xlFontMode',
+      enlargeCallback('xl', 8)
+    )
+  );
 }
 
 // this method is called when your extension is deactivated
