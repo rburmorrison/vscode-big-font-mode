@@ -1,8 +1,8 @@
 {
   "name": "big-font-mode",
   "displayName": "Big Font Mode",
-  "description": "Temporarily enlarge your font",
-  "version": "0.1.0",
+  "description": "Temporarily enlarge your font!",
+  "version": "0.1.1",
   "license": "MIT",
   "publisher": "rburmorrison",
   "icon": "assets/icon.png",
@@ -29,6 +29,18 @@
       {
         "command": "big-font-mode.xlFontMode",
         "title": "XL Font Mode"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "ctrl+shift+4",
+        "command": "big-font-mode.bigFontMode",
+        "when": "editorAreaVisible"
+      },
+      {
+        "key": "ctrl+shift+8",
+        "command": "big-font-mode.xlFontMode",
+        "when": "editorAreaVisible"
       }
     ]
   },
